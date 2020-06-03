@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	editor = vim
+[remote "origin"]
+	url = https://github.com/leejang/extra_codes.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = auto
+[diff]
+	tool = vimdiff
+[user]
+	name = Jangwon Lee
+	email = leejang@kau.ac.kr
+
